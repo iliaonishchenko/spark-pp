@@ -1,5 +1,7 @@
 ### Spark introduction
 
----?image=images/endless-waiting.png @title[Before Spark ..]
+---
+### What was before spark?
+![Before Spark .. ](images/endless-waiting.png)
 
 ---
