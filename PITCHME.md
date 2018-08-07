@@ -1,5 +1,8 @@
 ### Spark introduction
 
 ---
+?image=images/endless-waiting.png @title[Image Backgrounds]
 
-#Second slide
+# Before Spark ..
+
+---
