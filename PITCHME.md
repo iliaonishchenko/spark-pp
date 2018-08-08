@@ -4,9 +4,7 @@
 @snap[north]
 #### what was before Spark?
 @snapped
-@snap[south]
-![WaitingForSpark](images/endless-waiting.png)
-@snapped
+![WaitingForSpark](images/endless-waiting.png)&size=80% auto
 ---
 ### Hadoop/MapReduce
 
