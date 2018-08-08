@@ -4,9 +4,7 @@
 ### Hadoop/MapReduce
 
 Hadoop is widely used large-scale batch data processing framework  
-@snap[west]
 It was great because of:
-@snapped
 * simple API
 * fault tolerance
 
