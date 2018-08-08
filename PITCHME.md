@@ -7,9 +7,6 @@ Hadoop is widely used large-scale batch data processing framework
 It was great because of:
 * simple API
 * fault tolerance
-
-*** Because of these Hadoop became framework for large files. 
-It is possible to deploy Hadoop with 1k nodes ***
 ---
 @snap[north]
 #### and it was like
@@ -21,12 +18,6 @@ It is:
 * fault tolerant
 * functional style api
 * different strategy for handling latency
-
-all data is immutable and in-memory     
-operations are functional transformations     
-fault tolerance is achieved by replaying transformations starting from original dataset   
-  
-As result Spark can be 100x (watch the numbers) faster then Hadoop      
 --- 
 ### iterations in Hadoop/MapReduce vs Spark
 ![Hadoop iterations](images/hadoop-iterations.png)
