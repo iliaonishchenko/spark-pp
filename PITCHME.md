@@ -4,12 +4,14 @@
 ### Hadoop/MapReduce
 
 Hadoop is widely used large-scale batch data processing framework  
-It was great because of
+@snap[west]
+It was great because of:
+@snapped
 * simple API
 * fault tolerance
 
 *** Because of these Hadoop became framework for large files. 
-It is to run it on 1k nodes ***
+It is possible to deploy Hadoop with 1k nodes ***
 ---
 @snap[north]
 #### and it was like
