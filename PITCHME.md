@@ -1,8 +1,7 @@
 ### Spark introduction
 
 ---
-### What was before spark?
-!(images/endless-waiting.png)
+![WaitingForSpark](images/endless-waiting.png)
 @snap[west]
 What was before spark?
 @snapped
