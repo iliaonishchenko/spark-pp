@@ -1,9 +1,11 @@
 ### Spark introduction
 
 ---
-![WaitingForSpark](images/endless-waiting.png)
 @snap[north]
-What was before spark?
+#### what was before Spark?
+@snapped
+@snap[south]
+![WaitingForSpark](images/endless-waiting.png)
 @snapped
 ---
 ### Hadoop/MapReduce
