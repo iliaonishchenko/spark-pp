@@ -46,7 +46,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 @snapped
 ---?image=images/spark-distributed-mode.png&size=50%
 @snap[north]
-### Spark distributed mode
+##### Spark distributed mode
 @snapped
 ---
 @ul
@@ -64,6 +64,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 * Dataset 
 @ulend
 @snapped
+
 @snap[west]
 and they are
 @ul
