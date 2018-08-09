@@ -11,7 +11,8 @@ It was great because of:
 @snap[north]
 #### and it was like
 @snapend
-![WaitingForSpark](images/endless-waiting.png)&size=8   0% auto
+
+![WaitingForSpark](images/endless-waiting.png)&size=70% auto
 ---
 ### and now Spark is here
 @ul
@@ -43,7 +44,9 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---?image=images/spark-stack.png&size=53%
 
 @snap[north]
+
 #### Spark nowadays
+
 @snapend
 
 ---?image=images/spark-distributed-mode.png&size=50%
