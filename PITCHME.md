@@ -36,30 +36,19 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 * reusing existing Hadoop ecosystem  
 * opensource
 
----
-@snap[south]
-?image=images/spark-stack.png&size=60%
-@snapped
+---?image=images/spark-stack.png&size=60%
 @snap[north]
-### Spark nowadays
+##### Spark nowadays
 @snapped
-<!-- ![Spark stack](images/spark-stack.png)&size=contain -->
-
-
 ---?image=images/spark-distributed-mode.png&size=50%
 @snap[north]
-### Spark distributed mode
+#### Spark distributed mode
 @snapped
-<!-- @snap[west] -->
-<!-- ![Spark distributed mode](images/spark-distributed-mode.png)&size=40% auto -->
-<!-- @snapped -->
-
-@snap[east]
+---
 * master-slave architecture   
 * driver is the process where the main method runs  
 * executors are responsible for running the individual tasks in given Spark job
 * driver + executor == spark app
-@snapped
 ---
 ### There are 3 collection types:
 @Snap[east]
