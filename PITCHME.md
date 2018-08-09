@@ -95,7 +95,7 @@ reduce(op: (A, A) => A): A
 <h4> Narrow & Wide tranformations </h4>
 ![Narrrow & Wide transforms](images/narrow-wide-explained.png)
 ---
-![Narrow & Wide transforms2](images/narrow-wide-complex.png)
+![Narrow & Wide transforms2](images/narrow-wide-complex.png)&size=60% auto
 ---
 <h4> Actions <h4>
 * `reduce`
