@@ -9,7 +9,7 @@ It was great because of:
 * fault tolerance
 ---
 <h3> and it was like </h3>
-![WaitingForSpark](images/endless-waiting.png)&size=contain
+![WaitingForSpark](images/endless-waiting.png)&size=60%
 ---
 <h3> and now Spark is here </h3>
 @ul
@@ -17,17 +17,16 @@ It was great because of:
 * functional style api
 * different strategy for handling latency 
 @ulend
---- 
-Data is immutable and stored in-memory     
-Operations are functional transformations       
-Fault tolerance is achieved by replaying transformations starting from original dataset     
-  
-As result Spark can be 100x (watch the numbers) faster then Hadoop      
 ---
 <h3> iterations in Hadoop/MapReduce vs Spark </h3>
 ![Hadoop iterations](images/hadoop-iterations.png)
 ![Spark iterations](images/spark-iterations.png)
-
+--- 
+*Data* is immutable and stored in-memory     
+*Operations* are functional transformations       
+*Fault tolerance* is achieved by replaying transformations starting from original dataset     
+  
+As result Spark can be 100x (watch the numbers) faster then Hadoop      
 ---
 <h3> some cool things about Spark: </h3>
 @ul
@@ -71,20 +70,23 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 <!-- ![RDD Flow](images/rdd-flow.png)&size=contain -->
 <!-- @snapend -->
 ---
-### first peace of rdd
-adsad
----
 ### RDD operations
 There are two main types:
-* transformations
+* *transformations*
 returns new collection as a result
 ```scala
 map([B]f: A => B): RDD[B]
 ```
-* actions
+* *actions*
 ```scala
 reduce(op: (A, A) => A): A
 ```
+---
+<h4> Transformations <h4>
+Some text
+---
+<h4> Actions <h4>
+Some text about actions
 ---
 ### world count 
 ```scala
