@@ -1,7 +1,7 @@
 ### Spark introduction
 
 ---
-<h4> Hadoop/MapReduce </h4>
+<h3> Hadoop/MapReduce </h3>
 
 Hadoop is widely used large-scale batch data processing framework  
 It was great because of:
@@ -9,12 +9,12 @@ It was great because of:
 * fault tolerance
 ---
 @snap[north]
-<h4> and it was like </h4>
+<h3> and it was like </h3>
 @snapend
 
-![WaitingForSpark](images/endless-waiting.png)&size=70% auto
+![WaitingForSpark](images/endless-waiting.png)&size=65% auto
 ---
-<h4> and now Spark is here </h4>
+<h3> and now Spark is here </h3>
 @ul
 * fault tolerant
 * functional style api
@@ -27,12 +27,12 @@ Fault tolerance is achieved by replaying transformations starting from original 
   
 As result Spark can be 100x (watch the numbers) faster then Hadoop      
 ---
-<h4> iterations in Hadoop/MapReduce vs Spark </h4>
+<h3> iterations in Hadoop/MapReduce vs Spark </h3>
 ![Hadoop iterations](images/hadoop-iterations.png)
 ![Spark iterations](images/spark-iterations.png)
 
 ---
-<h4> some cool things about Spark: </h4>
+<h3> some cool things about Spark: </h3>
 @ul
 * native Scala, Java, Python, R interface   
 * interactive shell (repl)    
@@ -45,14 +45,14 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 
 @snap[north]
 
-<h4> Spark nowadays </h4>
+<h3> Spark nowadays </h3>
 
 @snapend
 
 ---?image=images/spark-distributed-mode.png&size=50%
 
 @snap[north]
-<h4> Spark distributed mode </h4>
+<h3> Spark distributed mode </h3>
 @snapend
 
 ---
