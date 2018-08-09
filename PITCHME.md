@@ -1,7 +1,7 @@
 ### Spark introduction
 
 ---
-### Hadoop/MapReduce
+<h4> Hadoop/MapReduce </h4>
 
 Hadoop is widely used large-scale batch data processing framework  
 It was great because of:
@@ -9,7 +9,7 @@ It was great because of:
 * fault tolerance
 ---
 @snap[north]
-#### and it was like
+<h4> and it was like </h4>
 @snapend
 
 ![WaitingForSpark](images/endless-waiting.png)&size=70% auto
@@ -27,12 +27,12 @@ Fault tolerance is achieved by replaying transformations starting from original 
   
 As result Spark can be 100x (watch the numbers) faster then Hadoop      
 ---
-### iterations in Hadoop/MapReduce vs Spark
+<h4> iterations in Hadoop/MapReduce vs Spark </h4>
 ![Hadoop iterations](images/hadoop-iterations.png)
 ![Spark iterations](images/spark-iterations.png)
 
 ---
-### some cool things about Spark: 
+<h4> some cool things about Spark: </h4>
 @ul
 * native Scala, Java, Python, R interface   
 * interactive shell (repl)    
