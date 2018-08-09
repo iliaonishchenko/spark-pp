@@ -8,10 +8,7 @@ It was great because of:
 * simple API
 * fault tolerance
 ---
-@snap[north]
 <h3> and it was like </h3>
-@snapend
-
 ![WaitingForSpark](images/endless-waiting.png)&size=auto
 ---
 <h3> and now Spark is here </h3>
