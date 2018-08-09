@@ -12,7 +12,7 @@ It was great because of:
 <h3> and it was like </h3>
 @snapend
 
-![WaitingForSpark](images/endless-waiting.png)&size=60%
+![WaitingForSpark](images/endless-waiting.png)&size=auto
 ---
 <h3> and now Spark is here </h3>
 @ul
@@ -65,24 +65,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 
 ---
 <h3> Main APIs: </h3>
-
 ![Rdd-Df-Ds](images/rdd-df-ds.png)
-
-* RDD
-* DataFrame
-* Dataset 
-
-@snap[east]
-and they are
-@ul
-* resilient
-* distributed
-* immutable
-* in-memory
-* lazy
-* parallel-partitioned 
-@ulend
-@snapend
 --- 
 ### Resilient Distributed Dataset 
 @snap[east]
