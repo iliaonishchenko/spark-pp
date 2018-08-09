@@ -55,7 +55,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 * Executors are responsible for running the individual tasks in given Spark job
 * Driver + executor == spark app 
 @ulend
----?image=images/rdd-df-ds.png
+---?image=images/rdd-df-ds.png&size=90%
 @snap[north]
 ### Main APIs:
 @snaped
