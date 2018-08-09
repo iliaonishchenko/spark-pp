@@ -8,7 +8,7 @@ It was great because of:
 * simple API
 * fault tolerance
 ---
-<h3> and it was like </h3>
+<h4> and it was like </h4>
 ![WaitingForSpark](images/endless-waiting.png)&size=60% auto
 ---
 <h3> and now Spark is here </h3>
