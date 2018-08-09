@@ -12,7 +12,7 @@ It was great because of:
 <h3> and it was like </h3>
 @snapend
 
-![WaitingForSpark](images/endless-waiting.png)&size=65% auto
+![WaitingForSpark](images/endless-waiting.png)&size=60%
 ---
 <h3> and now Spark is here </h3>
 @ul
