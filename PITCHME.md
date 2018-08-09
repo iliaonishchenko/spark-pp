@@ -10,7 +10,7 @@ It was great because of:
 ---
 @snap[north]
 #### and it was like
-@snapped
+@snaped
 ![WaitingForSpark](images/endless-waiting.png)&size=90% auto
 ---
 ### and now Spark is here
@@ -43,11 +43,11 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---?image=images/spark-stack.png&size=53%
 @snap[north]
 #### Spark nowadays
-@snapped
+@snaped
 ---?image=images/spark-distributed-mode.png&size=50%
 @snap[north]
 ##### Spark distributed mode
-@snapped
+@snaped
 ---
 @ul
 * Master-slave architecture   
@@ -57,13 +57,11 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 @ulend
 ---
 ### There are 3 collection types:
-@snap[east]
-@ul 
+@snap[west]
 * RDD
 * DataFrame
 * Dataset 
-@ulend
-@snapped
+@snaped
 
 @snap[west]
 and they are
@@ -75,7 +73,7 @@ and they are
 * lazy
 * parallel-partitioned 
 @ulend
-@snapped
+@snaped
 --- 
 ### Resilient Distributed Dataset 
 @snap[east]
@@ -83,7 +81,7 @@ and they are
 @snapped
 @snap[wesr]
 Seems like immutable sequential or parallel Scala collection.
-@snapped
+@snaped
 ---
 ### first peace of rdd
 adsad
