@@ -14,9 +14,10 @@ It was great because of:
 ![WaitingForSpark](images/endless-waiting.png)&size=90% auto
 ---
 ### and now Spark is here
+@ul
 * fault tolerant
 * functional style api
-* different strategy for handling latency
+* different strategy for handling latency @ulend
 --- 
 Data is immutable and stored in-memory     
 Operations are functional transformations       
@@ -30,40 +31,44 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 
 ---
 ### some cool things about Spark: 
+@ul
 * native Scala, Java, Python, R interface   
 * interactive shell (repl)    
 * efficient distributed operations   
 * reusing existing Hadoop ecosystem  
-* opensource
+* opensource @ulend
 
 ---?image=images/spark-stack.png&size=53%
 @snap[north]
-##### Spark nowadays
+#### Spark nowadays
 @snapped
 ---?image=images/spark-distributed-mode.png&size=50%
 @snap[north]
-#### Spark distributed mode
+### Spark distributed mode
 @snapped
 ---
+@ul
 * Master-slave architecture   
 * Driver is the process where the main method runs  
 * Executors are responsible for running the individual tasks in given Spark job
-* Driver + executor == spark app
+* Driver + executor == spark app @ulend
 ---
 ### There are 3 collection types:
 @snap[east]
+@ul 
 * RDD
 * DataFrame
-* Dataset
+* Dataset @ulend
 @snapped
 @snap[west]
 and they are
+@ul
 * resilient
 * distributed
 * immutable
 * in-memory
 * lazy
-* parallel-partitioned
+* parallel-partitioned @ulend
 @snapped
 --- 
 ### Resilient Distributed Dataset 
