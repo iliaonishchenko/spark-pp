@@ -18,7 +18,7 @@ It was great because of:
 * functional style api
 * different strategy for handling latency
 --- 
-All data is immutable and stored in-memory     
+Data is immutable and stored in-memory     
 Operations are functional transformations       
 Fault tolerance is achieved by replaying transformations starting from original dataset     
   
@@ -38,12 +38,12 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 
 --- 
 ### Spark nowadays
-![Spark stack](images/spark-stack.png)&size=80% auto
+![Spark stack](images/spark-stack.png)&size=60% auto
 
 --- 
 ### Spark distributed mode
 @snap[west]
-![Spark distributed mode](images/spark-distributed-mode.png)&size=50% auto
+![Spark distributed mode](images/spark-distributed-mode.png)&size=40% auto
 @snapped
 
 @snap[east]
@@ -70,7 +70,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 --- 
 ### Resilient Distributed Dataset 
 @snap[east]
-![RDD Flow](images/rdd-flow.png)
+![RDD Flow](images/rdd-flow.png)&size=80%
 @snapped
 @snap[wesr]
 Seems like immutable sequential or parallel Scala collection.
