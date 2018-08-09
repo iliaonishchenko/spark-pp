@@ -22,9 +22,9 @@ It was great because of:
 ![Hadoop iterations](images/hadoop-iterations.png)
 ![Spark iterations](images/spark-iterations.png)
 --- 
-*Data* is immutable and stored in-memory     
-*Operations* are functional transformations       
-*Fault tolerance* is achieved by replaying transformations starting from original dataset     
+**Data** is immutable and stored in-memory     
+**Operations** are functional transformations       
+**Fault tolerance** is achieved by replaying transformations starting from original dataset     
   
 As result Spark can be 100x (watch the numbers) faster then Hadoop      
 ---
@@ -72,21 +72,39 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---
 ### RDD operations
 There are two main types:
-* *transformations*
+* **transformations**
 returns new collection as a result
 ```scala
 map([B]f: A => B): RDD[B]
 ```
-* *actions*
+* **actions**
 ```scala
 reduce(op: (A, A) => A): A
 ```
 ---
 <h4> Transformations <h4>
-Some text
+* `map`
+* `filter`
+* `groupByKey`
+* `reduceByKey`
+* `mapValues`
+* `keys`
+* `join`
+* `leftOuterJoin/rightOuterJoin`
+---
+<h4> Narrow & Wide tranformations </h4>
+![Narrrow & Wide transforms](images/narrow-wide-explained.png)
+---
+![Narrow & Wide transforms2](images/narrow-wide-complex.png)
 ---
 <h4> Actions <h4>
-Some text about actions
+* `reduce`
+* `collect`
+* `count`
+* `first`
+* `take`
+* `countByKey`
+* `saveAsTextFile`
 ---
 ### world count 
 ```scala
