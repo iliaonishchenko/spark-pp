@@ -56,14 +56,12 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 * Driver + executor == spark app 
 @ulend
 ---
-### There are 3 collection types:
-@snap[west]
+### Main APIs:
 * RDD
 * DataFrame
 * Dataset 
-@snaped
 
-@snap[west]
+@snap[east]
 and they are
 @ul
 * resilient
