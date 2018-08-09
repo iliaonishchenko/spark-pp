@@ -7,7 +7,7 @@ Hadoop is widely used large-scale batch data processing framework
 It was great because of:
 * simple API
 * fault tolerance
----?image=images/endless-waiting.png&size=90%
+---?image=images/endless-waiting.png&size=50%
 #### and it was like
 ---
 ### and now Spark is here
