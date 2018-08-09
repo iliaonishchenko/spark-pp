@@ -14,7 +14,7 @@ It was great because of:
 
 ![WaitingForSpark](images/endless-waiting.png)&size=70% auto
 ---
-### and now Spark is here
+<h4> and now Spark is here </h4>
 @ul
 * fault tolerant
 * functional style api
@@ -45,14 +45,14 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 
 @snap[north]
 
-#### Spark nowadays
+<h4> Spark nowadays </h4>
 
 @snapend
 
 ---?image=images/spark-distributed-mode.png&size=50%
 
 @snap[north]
-##### Spark distributed mode
+<h4> Spark distributed mode </h4>
 @snapend
 
 ---
