@@ -63,7 +63,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---
 <h3> Main APIs: </h3>
 ![Rdd-Df-Ds](images/rdd-df-ds.png)
----?image=images/rdd-flow.png&size=40%
+---?image=images/rdd-flow.png&size=35%
 @snap[north]
 <h3> Resilient Distributed Dataset </h3>
 @snapend
