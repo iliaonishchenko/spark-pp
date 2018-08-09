@@ -9,7 +9,7 @@ It was great because of:
 * fault tolerance
 ---
 <h3> and it was like </h3>
-![WaitingForSpark](images/endless-waiting.png)&size=auto
+![WaitingForSpark](images/endless-waiting.png)&size=60%
 ---
 <h3> and now Spark is here </h3>
 @ul
