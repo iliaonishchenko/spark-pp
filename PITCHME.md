@@ -7,8 +7,11 @@ Hadoop is widely used large-scale batch data processing framework
 It was great because of:
 * simple API
 * fault tolerance
----?image=images/endless-waiting.png&size=50%
+---
+@snap[north]
 #### and it was like
+@snapend
+![WaitingForSpark](images/endless-waiting.png)&size=90% auto
 ---
 ### and now Spark is here
 @ul
@@ -40,11 +43,11 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---?image=images/spark-stack.png&size=53%
 @snap[north]
 #### Spark nowadays
-@snaped
+@snapend
 ---?image=images/spark-distributed-mode.png&size=50%
 @snap[north]
 ##### Spark distributed mode
-@snaped
+@snapend
 ---
 @ul
 * Master-slave architecture   
@@ -55,7 +58,7 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---?image=images/rdd-df-ds.png&size=90%
 @snap[north]
 ### Main APIs:
-@snaped
+@snapend
 
 * RDD
 * DataFrame
@@ -71,15 +74,15 @@ and they are
 * lazy
 * parallel-partitioned 
 @ulend
-@snaped
+@snapend
 --- 
 ### Resilient Distributed Dataset 
 @snap[east]
 ![RDD Flow](images/rdd-flow.png)&size=80%
-@snapped
-@snap[wesr]
+@snapend
+@snap[west]
 Seems like immutable sequential or parallel Scala collection.
-@snaped
+@snapend
 ---
 ### first peace of rdd
 adsad
