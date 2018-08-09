@@ -14,11 +14,16 @@ It was great because of:
 ![WaitingForSpark](images/endless-waiting.png)&size=90% auto
 ---
 ### and now Spark is here
-It is:
 * fault tolerant
 * functional style api
 * different strategy for handling latency
 --- 
+All data is immutable and stored in-memory     
+Operations are functional transformations       
+Fault tolerance is achieved by replaying transformations starting from original dataset     
+  
+As result Spark can be 100x (watch the numbers) faster then Hadoop      
+---
 ### iterations in Hadoop/MapReduce vs Spark
 ![Hadoop iterations](images/hadoop-iterations.png)
 ![Spark iterations](images/spark-iterations.png)
@@ -33,12 +38,12 @@ It is:
 
 --- 
 ### Spark nowadays
-![Spark stack](images/spark-stack.png)
+![Spark stack](images/spark-stack.png)&size=80% auto
 
 --- 
 ### Spark distributed mode
 @snap[west]
-![Spark distributed mode](images/spark-distributed-mode.png)
+![Spark distributed mode](images/spark-distributed-mode.png)&size=50% auto
 @snapped
 
 @snap[east]
