@@ -63,11 +63,11 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 ---
 <h3> Main APIs: </h3>
 ![Rdd-Df-Ds](images/rdd-df-ds.png)
---- 
+---?image=images/rdd-flow.png&size=80%
 <h3> Resilient Distributed Dataset </h3>
-@snap[east]
-![RDD Flow](images/rdd-flow.png)&size=contain
-@snapend
+<!-- @snap[east] -->
+<!-- ![RDD Flow](images/rdd-flow.png)&size=contain -->
+<!-- @snapend -->
 @snap[west]
 Seems like immutable sequential or parallel Scala collection.
 @snapend
