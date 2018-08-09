@@ -36,9 +36,10 @@ As result Spark can be 100x (watch the numbers) faster then Hadoop
 * reusing existing Hadoop ecosystem  
 * opensource
 
---- 
+---?image=images/spark-stack.png&size=contain
 ### Spark nowadays
-![Spark stack](images/spark-stack.png)&size=contain
+<!-- ![Spark stack](images/spark-stack.png)&size=contain -->
+
 
 --- 
 ### Spark distributed mode
